@@ -15,7 +15,6 @@ form.addEventListener("submit", function (e) {
     alert.style.display = "none";
   }
 
-
   let key = document.getElementById("key");
 
   if(key.value.length == 0){
@@ -26,7 +25,6 @@ form.addEventListener("submit", function (e) {
     key.classList.add("is-valid");
     alert.style.display = "none";
   }
-
 
   let total = document.getElementById("total");
 
@@ -39,7 +37,6 @@ form.addEventListener("submit", function (e) {
     alert.style.display = "none";
   }
 
-
   let nombre = document.getElementById("nombre");
 
   if(nombre.value.length == 0){
@@ -50,7 +47,6 @@ form.addEventListener("submit", function (e) {
     nombre.classList.add("is-valid");
     alert.style.display = "none";
   }
-
 
   let apellidos = document.getElementById("apellidos");
 
@@ -63,8 +59,6 @@ form.addEventListener("submit", function (e) {
     alert.style.display = "none";
   }
 
-
-
   let ciudad = document.getElementById("ciudad");
 
   if(ciudad.value.length == 0){
@@ -76,18 +70,16 @@ form.addEventListener("submit", function (e) {
     alert.style.display = "none";
   }
 
+  let state = document.getElementById("estado");
 
-  let estado = document.getElementById("estado");
-
-  if(estado.value.length == 0){
-    estado.classList.add("is-invalid");
+  if(state.value.length == 0){
+    state.classList.add("is-invalid");
     alert.style.display = "block";
   }else{
-    estado.classList.remove("is-invalid");
-    estado.classList.add("is-valid");
+    state.classList.remove("is-invalid");
+    state.classList.add("is-valid");
     alert.style.display = "none";
   }
-
 
   let postal = document.getElementById("postal");
 
@@ -99,7 +91,6 @@ form.addEventListener("submit", function (e) {
     postal.classList.add("is-valid");
     alert.style.display = "none";
   }
-
 
   //let medio = document.getElementById("medio");
 
